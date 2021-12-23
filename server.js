@@ -3,8 +3,8 @@ const http = require('http')
 
 const server = http.createServer((req, res) => { })
 
-server.listen(9090, () => {
-    console.log("Listening on port 9090...")
+server.listen(20341, () => {
+    console.log("Listening on port 20341...")
 })
 
 wsServer = new SocketServer({ httpServer: server })
